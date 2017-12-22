@@ -24,6 +24,7 @@ export class ShotChart extends React.Component {
        shot_made_flag: shot.shotMadeFlag,
      }));
 
+     console.log(final_shots);
      const courtSelection = d3.select("#shot-chart");
      courtSelection.html('');
      const chart_court = court().width(500);
